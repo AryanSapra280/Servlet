@@ -1,5 +1,6 @@
 package com.servlet.submitForm;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -24,5 +25,7 @@ public class RegisterServlet extends HttpServlet {
         out.println("<h2> your email: " + email + "</h2>");
         out.println("<h2> your password: " + password + "</h2>");
         out.println("<h2> your gender: " + gender + "</h2>");
+        RequestDispatcher rd = request.getRequestDispatcher("index.html");
+        rd.include(request,response);
     }
 }

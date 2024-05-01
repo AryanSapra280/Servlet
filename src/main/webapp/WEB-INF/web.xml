@@ -19,6 +19,10 @@
     <servlet-name>third</servlet-name>
     <servlet-class>com.servlet.ThirdServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>registerServlet</servlet-name>
+    <servlet-class>com.servlet.submitForm.RegisterServlet</servlet-class>
+  </servlet>
 <!--  mapping-->
   <servlet-mapping>
     <servlet-name>first</servlet-name>
@@ -32,4 +36,10 @@
     <servlet-name>third</servlet-name>
     <url-pattern>/web_http</url-pattern>
   </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>registerServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+
 </web-app>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>Form Submission</h1>
+<form id="myform" action="RegisterServlet" method="post">
+    <table>
+        <tr>
+            <td>Enter your username</td>
+            <td><input type="text" name="username" placeholder="enter here"></td>
+        </tr>
+        <tr>
+            <td>Enter your password</td>
+            <td><input type="text" name="password" placeholder="*******"></td>
+        </tr>
+        <tr>
+            <td>Enter your email</td>
+            <td><input type="text" name="email" placeholder="john@gmail.com"></td>
+        </tr>
+        <tr>
+            <td>Enter your Gender</td>
+            <td>
+                <input type="radio" name="user_gender" value="Male">Male
+                <input type="radio" name="user_gender" value="Male">Female
+                <input type="radio" name="user_gender" value="Male">Others
+            </td>
+        </tr>
+        <tr>
+            <td><button type ="submit" value="submit">Submit</button></td>
+            <td><button type="reset" value="reset">Reset</button></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

@@ -51,6 +51,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\spring project\servlet\src\main\webapp" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Servlet8080" type="com.poratu.idea.plugins.tomcat">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />

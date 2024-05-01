@@ -28,6 +28,18 @@
     <servlet-name>registerServlet</servlet-name>
     <servlet-class>com.servlet.submitForm.RegisterServlet</servlet-class>
   </servlet>
+
+  <servlet>
+    <servlet-name>s1</servlet-name>
+    <servlet-class>com.servlet.attributeUsage.S1</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>s2</servlet-name>
+    <servlet-class>com.servlet.attributeUsage.S2</servlet-class>
+  </servlet>
+
+
 <!--  mapping-->
   <servlet-mapping>
     <servlet-name>first</servlet-name>
@@ -46,5 +58,16 @@
     <servlet-name>registerServlet</servlet-name>
     <url-pattern>/RegisterServlet</url-pattern>
   </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>s1</servlet-name>
+    <url-pattern>/s1</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>s2</servlet-name>
+    <url-pattern>/s2</url-pattern>
+  </servlet-mapping>
+
 
 </web-app>

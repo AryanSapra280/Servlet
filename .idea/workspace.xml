@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a46dcec-60ca-484d-a089-046615ba8845" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/servlet/urlReWriting/UrlReWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/servlet/urlReWriting/UrlReWriter2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/indexUrlRewriting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/servlet/sessionManagement/httpSession/FinalPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/servlet/sessionManagement/httpSession/LoginSessionUsingHttpSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/servlet/sessionManagement/httpSession/LogoutSessionUsingHttpSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/loginForm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/servlet/sessionManagement/cookie/Cookie2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlet/sessionManagement/cookie/Cookie2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/servlet/sessionManagement/cookie/CookieOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlet/sessionManagement/cookie/CookieOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/servlet/submitForm/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlet/submitForm/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/servlet/urlReWriting/UrlReWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlet/sessionManagement/urlReWriting/UrlReWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/servlet/urlReWriting/UrlReWriter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlet/sessionManagement/urlReWriting/UrlReWriter2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable"
+    "settings.editor.selected.configurable": "preferences.packagesearch.PackageSearchGeneralConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -96,6 +96,17 @@
       <updated>1714318284225</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/servlet/sessionManagement/httpSession/LoginSessionUsingHttpSession.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

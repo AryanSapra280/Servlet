@@ -1,4 +1,4 @@
-package com.servlet.urlReWriting;
+package com.servlet.sessionManagement.urlReWriting;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
